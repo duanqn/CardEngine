@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message JoinRequest{
+	uint32 version = 1;
+}
+
+message JoinResponse{
+	uint32 version = 1;
+	string player_name = 2;
+}
